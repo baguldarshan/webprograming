@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Image Gallery</title>
+    <style>
+        /* Basic styling for the gallery */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Agriculture Image Gallery</h1>
+    <div class="gallery">
+        <!-- Farming -->
+        <img src="C:\Users\mrdar\OneDrive\Desktop/1.webp" alt="Farming">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/2.webp" alt="Crop Farming">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/3.webp" alt="Agriculture">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/4.webp" alt="Farmer">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/5.webp" alt="Farm Worker">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/6.webp" alt="Harvesting">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/7.webp" alt="Tractor">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/8.webp" alt="Farm Machinery">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/9.webp" alt="Ploughing">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/10.webp" alt="Irrigation">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/11.webp" alt="Water in Farm">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/12.webp" alt="Canal">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/13.webp" alt="Farm">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/14.webp" alt="Farmland">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/15.webp" alt="Countryside">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/16.webp" alt="Vegetable Garden">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/17.webp" alt="Fruit Orchard">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/18.webp" alt="Rice Paddy">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/19.webp" alt="Wheat Field">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/19.webp" alt="Farm Animals">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/20.webp" alt="Greenhouse">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/21.webp" alt="Organic Farming">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/22.webp" alt="Farm Life">
+  	<img src="C:\Users\mrdar\OneDrive\Desktop/23.webp" alt="Farm">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/24.webp" alt="Farmland">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/25.webp" alt="Countryside">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/26.webp" alt="Vegetable Garden">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/27.webp" alt="Fruit Orchard">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/28.webp" alt="Rice Paddy">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/29.webp" alt="Wheat Field">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/30.webp" alt="Farm Animals">
+        <img src="C:\Users\mrdar\OneDrive\Desktop/31.webp" alt="Greenhouse">
+     </div>
+</body>
+</html>
