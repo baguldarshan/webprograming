@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Cybersecurity</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        h1, h2 {
+            color: #0073e6;
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .description {
+            font-style: italic;
+            color: #555;
+            text-align: center;
+        }
+        nav {
+            background: #0073e6;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    
+    <div class="container">
+        <h1>AI and Cybersecurity: The Future of Digital Protection</h1>
+        
+        <h2>Introduction</h2>
+        <p>As cyber threats grow more sophisticated, artificial intelligence (AI) is emerging as a crucial tool in cybersecurity. AI enhances threat detection, automates responses, and strengthens defenses against cyberattacks. In this blog, we explore how AI is revolutionizing cybersecurity and its potential impact on digital security.</p>
+        
+        <h2>AI in Threat Detection</h2>
+        <p>AI-powered systems analyze vast amounts of data to detect anomalies and potential threats. Unlike traditional cybersecurity measures, AI continuously learns from new threats, improving its ability to identify suspicious activities.</p>
+        <img src="C:\Users\mrdar\OneDrive\Desktop/scanning.jpg" alt="AI scanning network for threats">
+        <p class="description">An AI-powered system monitoring network traffic to detect anomalies and potential cyber threats.</p>
+        
+        <h2>Automating Cybersecurity Responses</h2>
+        <p>AI can automate responses to threats, reducing the need for human intervention. Automated systems can isolate compromised systems, mitigate attacks, and provide real-time alerts.</p>
+        <img src="C:\Users\mrdar\OneDrive\Desktop/AIdriven.jpg" alt="AI-driven security response system">
+        <p class="description">An AI-driven system instantly blocking a cyberattack and alerting security teams.</p>
+        
+        <h2>AI-Driven Threat Intelligence</h2>
+        <p>AI helps analyze cyber threat intelligence from various sources, predicting potential attacks before they occur. Machine learning models assess risks and recommend proactive security measures.</p>
+        <img src="C:\Users\mrdar\OneDrive\Desktop/a.jpg" alt="AI analyzing cybersecurity threats">
+        <p class="description">AI analyzing global cybersecurity threats and predicting potential attack vectors.</p>
+        
+        <h2>Challenges and Ethical Considerations</h2>
+        <p>While AI enhances cybersecurity, it also presents challenges. Cybercriminals can leverage AI for attacks, and biases in AI algorithms may impact security decisions. Ethical AI development and robust regulations are essential.</p>
+        <img src="C:\Users\mrdar\OneDrive\Desktop/e	.jpg" alt="Ethical AI in cybersecurity">
+        <p class="description">A balance between AI-driven cybersecurity and ethical considerations to ensure responsible use.</p>
+        
+        <h2>Future Ai</h2>
+        <p>AI is reshaping cybersecurity by improving threat detection, automating responses, and predicting attacks. However, ethical considerations and adversarial AI remain challenges. As AI evolves, so will cybersecurity strategies, making digital spaces safer for everyone.</p>
+        <img src="C:\Users\mrdar\OneDrive\Desktop/Future.jpg" alt="Future of AI in cybersecurity">
+        <p class="description">A futuristic view of AI-driven cybersecurity, ensuring a secure digital world.</p>
+    </div>
+</body>
+</html>
+
