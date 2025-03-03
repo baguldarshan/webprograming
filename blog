@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa; /* Light grey background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:90vh;
+            margin: 0;
+        }
+        .container {
+            width: 50%;
+            background-color: #ffffff; /* White background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        header {
+            background-color: #d6d6d6; /* Light grey */
+            color: black;
+            padding: 20px;
+            border-radius: 10px 10px 0 0;
+        }
+        header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+            margin-top: 10px;
+        }
+        section {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #f1f1f1; /* Slightly darker grey */
+            border-radius: 5px;
+            text-align: left;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #cfcfcf; /* Medium grey */
+            color: black;
+            margin: 5px 0;
+            padding: 8px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="C:\Users\mrdar\OneDrive\Desktop\Image.png" alt="Darshan Bagul"></img>
+            <h1>Darshan Bagul</h1>
+            <p><strong>Computer Science Student</strong></p>
+            <p><strong>Email:</strong> baguldarshan@pcu.edu.in</p>
+            <p><strong>Phone:</strong> 8999082499</p>
+            <p><strong>Address:</strong> Deola, Nashik</p>
+        </header>
+        
+        <section>
+            <h2>Education</h2>
+            <p><strong>B.Tech in Computer Science</strong> - PCET's Pimpri Chinchwad University (2024 - Present)</p>
+            <p><strong>HSC:</strong> 83.00%</p>
+            <p><strong>SSC:</strong> 89.60%</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>C++</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Video Editing</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Gaming</li>
+                <li>Farming</li>
+                <li>Playing</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
